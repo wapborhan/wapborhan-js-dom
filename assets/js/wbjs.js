@@ -85,5 +85,10 @@ function addElement() {
   const headInst = document.createElement("div");
   headInst.classList.add("status-info");
   headInst.innerText = "I am a Front-End Developer";
-  headInh4.appendChild(headInst);
+  headerInCon.appendChild(headInst);
+
+  //<main-page-wrapper> <rn-content-wrapper> <container> <row> <col-lg-6> - 1 <header-left> <header-info-content> <social-share-style-1>
+  const headInsl = document.createElement("div");
+  headInsl.classList.add("social-share-style-1", "border-none", "mt--40");
+  headerInCon.appendChild(headInsl);
 }
